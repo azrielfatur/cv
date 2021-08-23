@@ -78,6 +78,18 @@ body {
     font-style: italic;
 }
 
+.float-text {
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
 
 main, .wrapper {
     min-height: 100vh !important;
